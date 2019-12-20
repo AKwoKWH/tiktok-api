@@ -131,7 +131,11 @@ class Api:
     def get_video_url(self, url):
         home = self.get_video_homepage(url)
         home = str(home)
-        video_url = re.findall(r'.https://v16-vcheckout.+?."' , home)
+        video_url = re.findall(r'.https://v...+?."' , home)
+        try:
+            video_url = video_url[0]
+        except:
+            pass
         
         return video_url
        
