@@ -107,11 +107,11 @@ class Api:
     def get_comment_count(self, url):
         home = str(requests.post(url, data=json.dumps(payload), headers=headers).content)
         home = str(home)
-        likes = re.findall(r'.xb7.+?.Comment' , home)
+        likes = re.findall(r'.\xc2\xb7.+?.Comment', home)
         likes = str(likes)
-        likes = likes.replace("['xb7 ", "")
+        likes = likes.replace("['\\xc2\\xb7 ", "")
         likes = likes.replace("\\", "")
-        likes = likes.replace("xb7", "")
+        likes = likes.replace("xc2xb7 ", "")
         likes = likes.replace("[' ", "")
         likes = likes.replace(" Comment']", "")
         return likes
