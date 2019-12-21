@@ -85,12 +85,20 @@ class Api:
         video_url = re.findall(r'.https://v...+?."' , home)
         try:
             video_url = video_url[0]
+            video_url = str(video_url)
+            video_url = video_url.replace('"', '')
+
         except:
             pass
 
         return video_url
 
-
+    def download_user_video(self, video_url, filename):
+        r = requests.get(video_url)
+        print(r)
+        with open(filename + ".mp4",'wb') as f:
+            f.write(r.content)
+            print("Video downloaded")
 
     def get_videos_hashtags(self, url):
         pass
