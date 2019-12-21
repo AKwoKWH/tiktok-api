@@ -8,7 +8,7 @@ tiktok-api
 
 pip install tiktok-api
 <p>
-    
+
 ## Quickstart
 ```python
 from tiktokapi import api
@@ -32,3 +32,11 @@ for video in videos:
     x += 1
 
 ```
+<p>
+<h2>Endpoints</h2><p>
+api.get_user_videos(username)<p>
+api.get_video_url(video)<p>
+api.get_comment_count(video)<p>
+api.get_likes_count(video)<p>
+api.get_comment_count(video)<p>
+api.download_user_video(video_url)<p>
