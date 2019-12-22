@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="tiktok-api",
-    version="0.10.3",
+    version="0.10.4",
     description="Tiktok Api.",
 #    description="tiktok api",
     author="Steffan Jensen",
