@@ -7,6 +7,7 @@ class Bot(object):
         self.api = api.Api()
 
     def download_user_videos(self, username):
+        ''' Download user videos without watermark '''
         x = 1
         videos = self.api.get_user_videos(username)
 
