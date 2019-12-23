@@ -16,6 +16,7 @@ setup(
     keywords=["tiktok", "bot", "api"],
     install_requires=[
         "requests",
+        "tqdm",
     ],
         entry_points={
         'console_scripts': ['tiktok-api=tiktokapi:api'],
