@@ -4,6 +4,10 @@ tiktok-api
 <p align="center">
 <em>TikTok Web Api and Bot.</em></p>
 <p>
+
+   ![PyPI](https://img.shields.io/pypi/v/tiktok-api.svg) ![](https://img.shields.io/pypi/dm/tiktok-api.svg) 
+
+</p></p>
 <h2>Install with pip:</h2><p>
 
 pip install tiktok-api
