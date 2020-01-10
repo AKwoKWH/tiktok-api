@@ -10,7 +10,20 @@ tiktok-api
 </p></p>
 <h2>Install with pip:</h2><p>
 
-pip install tiktok-api
+Gui:
+Click download
+unpack folder
+create test.py with quickstart
+run inside a terminal:
+cd tiktok-api (cd to the folder dir)
+python test.py
+
+
+Terminal:
+git clone https://github.com/instabotai/tiktok-api.git
+cd tiktok-api
+python test.py
+
 <p>
 
 ## Quickstart
