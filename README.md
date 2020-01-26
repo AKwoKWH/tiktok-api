@@ -42,3 +42,5 @@ api.get_comment_count(video)<p>
 api.get_likes_count(video)<p>
 api.get_comment_count(video)<p>
 api.download_user_video(video_url)<p>
+Use this function to get more user data, if you want to build new functions or fix some "scraping errors".<p>
+api.get_home_page(username)
