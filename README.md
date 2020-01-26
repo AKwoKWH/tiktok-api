@@ -36,6 +36,7 @@ tiktok.download_user_videos("maskofgod")
 ```
 <p>
 <h2>Endpoints</h2><p>
+
 ''' Get all username videos data '''<p>
 api.get_user_videos(username)<p>
 ''' Get all username video url '''<p>
@@ -46,6 +47,8 @@ api.get_comment_count(video)<p>
 api.get_likes_count(video)<p>
 ''' download user video '''<p>
 api.download_user_video(video_url)<p>
+''' Get popular tiktok videos data '''<p>
+api.get_popular_videos()<p>
 ''' Download users videos '''<p>
 bot.download_user_videos(username)<p>
 Use this function to get more user data, if you want to build new functions or fix some "scraping errors".<p>
