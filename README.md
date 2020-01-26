@@ -49,4 +49,5 @@ api.download_user_video(video_url)<p>
 ''' Download users videos '''<p>
 bot.download_user_videos(username)<p>
 Use this function to get more user data, if you want to build new functions or fix some "scraping errors".<p>
+''' Get all data from username homepage '''<p>
 api.get_home_page(username)
